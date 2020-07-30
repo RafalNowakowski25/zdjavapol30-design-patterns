@@ -1,4 +1,4 @@
-package pl.sdacademy.designpatterns.singleton.eager.v1.v2;
+package pl.sdacademy.designpatterns.creational.singleton.eager.v1.v2;
 
 public class Universe {
 
