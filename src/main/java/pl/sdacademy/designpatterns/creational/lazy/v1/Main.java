@@ -1,4 +1,4 @@
-package pl.sdacademy.designpatterns.lazy.v2;
+package pl.sdacademy.designpatterns.creational.lazy.v1;
 
 public class Main {
     public static void main(String[] args) {

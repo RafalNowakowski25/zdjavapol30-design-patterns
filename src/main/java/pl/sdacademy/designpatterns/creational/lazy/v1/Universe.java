@@ -1,15 +1,11 @@
-package pl.sdacademy.designpatterns.lazy.v2;
+package pl.sdacademy.designpatterns.creational.lazy.v1;
 
 public class Universe {
     private static Universe instance;
 
-    public  static Universe getInstance() {
+    public static Universe getInstance() {
         if (instance == null) {
-            synchronized (Universe.class) {
-                if (instance == null) {
-                    instance = new Universe();
-                }
-            }
+            instance = new Universe();
         }
         return instance;
     }
